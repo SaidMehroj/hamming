@@ -35,11 +35,19 @@ Alternatively, download the repository as a ZIP file:
 This method is suitable if you prefer not to use Git.
 
 ### 2️ - **Build the Program:**
+Linux  
    ```bash
    cmake -S . -B build
    cd build
    make
    ```
+Windows  
+   ```bash
+   mkdir build 
+   cd build
+   cmake .. -G "MinGW Makefiles"
+   cmake --build .
+   ```   
 
 ### 3️ - **Run the Program:**
    ```bash
